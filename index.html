@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <form action="">
+        <i>X</i>
+        <h4>Add New Transaction</h4>
+        <input type="text" placeholder="Transaction Name">
+        <input type="number" placeholder="Amount">
+        <button type="submit">ADD</button>
+    </form>
+    <div class="container">
+        <!-- Balance -->
+        <h1 class="expense-title">Expense Tracker</h1>
+        <div class="balance-container">
+            <h1 class="balance-val">Balance <span>Rs0.00</span></h1>
+            <div class="add"><h5>ADD</h5></div>
+        </div>
+        <!-- income-expense -->
+        <div class="Income-Expense">
+            <div class="expense">
+                <h4>Expense</h4>
+                <h4 class="exp">Rs0.00</h4>
+            </div>
+            <div class="budget">
+                <h4>Budget</h4>
+                <h4 class="bud">Rs0.00</h4>
+            </div>
+        </div>
+        <!-- Transaction -->
+         <div class="transactions">
+            <h2>Transactions</h2>
+            <input type="search" placeholder="Search" id="search">
+            <ul class="list">
+                <!-- <li class="plus">
+                    <h4 class="title">Birthday Gift</h4>
+                    <h4 class="amount">+Rs <span>500</span></h4>
+                    <div class="remove"><h5>Remove</h5></div>
+                </li>
+                <li class="minus">
+                    <h4 class="title">asda Gift</h4>
+                    <h4 class="amount">-Rs <span>500</span></h4>
+                    <div class="remove"><h5>Remove</h5></div>
+                </li> -->
+            </ul>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

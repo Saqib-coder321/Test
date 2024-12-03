@@ -1,0 +1,190 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+
+}
+form{
+    position: absolute;
+    background-color: lightgray;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    z-index: -10;
+
+    i{
+        position: relative;
+        padding-bottom: 0;
+    }
+    h4{
+        margin-top: 0;
+    }
+    input{
+        margin-bottom: 0.5rem;
+        border-radius: 0.4rem;
+        height: 2rem;
+        width: 100%;
+    }
+    button{
+        height: 1.5rem;
+        background-color: green;
+        color: white;
+    }
+}
+.container{
+    background-color: rgb(235, 235, 235);
+    border: 2px black solid;
+    border-radius: 2.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.balance-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+        font-size: 1.3rem;
+        font-weight: 500;
+        span{
+            font-weight: bold;
+        }
+    }
+    .add{
+        height: 2rem;
+        width: 4rem;
+        background-color: green;
+        color: white;
+        border: 2px black solid;
+        border-radius: 0.5rem ;
+        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h5{
+            position: relative;
+        }
+    }
+}
+.Income-Expense{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: absolute; */
+    .expense{
+        border: 2px black solid;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 10rem;
+        height: 4rem;
+        margin-right: 2rem;
+        /* position: relative; */
+        h4{
+            margin-bottom: 0;
+            padding-left: 0.4rem;
+        }
+        .exp{
+            font-size: 1.5rem;
+            color: red;
+            margin-top: 0;
+            padding-bottom: 1.5rem;
+        }
+    }
+    .budget{
+        border: 2px black solid;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 10rem;
+        height: 4rem;
+        /* position: relative; */
+        h4{
+            margin-bottom: 0;
+            padding-left: 0.4rem;
+        }
+        .bud{
+            font-size: 1.5rem;
+            margin-top: 0;
+            color: green;
+            padding-bottom: 1.5rem;
+        }
+    }
+}
+/* Transactions */
+#search{
+    position: relative;
+    width: 100%;
+}
+ul{
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.plus{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 3rem;
+    border: 1px rgb(0, 228, 11) solid;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 0rem 1rem;
+    .remove{
+        border: 1px black solid;
+        height: 2rem;
+        width: 4rem;
+        background-color: green;
+        color: white;
+        border-radius: 0.5rem ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h5{ 
+            position: relative;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+
+    }
+}
+.minus{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 3rem;
+    border: 1px rgb(228, 0, 0) solid;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 0rem 1rem;
+    .remove{
+        border: 1px black solid;
+        height: 2rem;
+        width: 4rem;
+        background-color: green;
+        color: white;
+        border-radius: 0.5rem ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h5{ 
+            position: relative;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+
+    }
+}
